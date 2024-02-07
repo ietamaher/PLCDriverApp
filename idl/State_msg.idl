@@ -1,0 +1,5 @@
+struct State_msg {
+    unsigned long state_driver;
+    unsigned long state_mes;
+    unsigned long state_error;
+};

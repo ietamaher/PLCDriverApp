@@ -1,0 +1,6 @@
+modbus:
+  device: "/dev/pts/6"
+  baud_rate: 115200
+  parity: 'N'
+  data_bits: 8
+  stop_bits: 1

@@ -1,0 +1,6 @@
+struct Response_msg {
+    unsigned long data[64];
+    unsigned long slave_id;
+    unsigned long func_code;
+};
+

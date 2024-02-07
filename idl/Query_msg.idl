@@ -1,0 +1,10 @@
+struct Query_msg {
+    unsigned long slave_id;
+    unsigned long func_code;
+    unsigned long write_addr;
+    unsigned long read_addr;
+    unsigned long write_num;
+    unsigned long read_num;
+    unsigned long data[64];
+};
+
